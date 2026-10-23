@@ -1,0 +1,481 @@
+month,facility,energy_source,energy_kwh,co2_kg,cost_inr
+2024-01-01,Pune Plant,Grid,76576,54369.0,627923.2
+2024-01-01,Pune Plant,Solar,20162,806.5,62502.2
+2024-01-01,Pune Plant,Wind,10045,110.5,36162.0
+2024-01-01,Pune Plant,Diesel Generator,6602,5413.6,145244.0
+2024-01-01,Chennai Plant,Grid,104212,73990.5,854538.4
+2024-01-01,Chennai Plant,Solar,22236,889.4,68931.6
+2024-01-01,Chennai Plant,Wind,9733,107.1,35038.8
+2024-01-01,Chennai Plant,Diesel Generator,7322,6004.0,161084.0
+2024-01-01,Nagpur Warehouse,Grid,37444,26585.2,307040.8
+2024-01-01,Nagpur Warehouse,Solar,8079,323.2,25044.9
+2024-01-01,Nagpur Warehouse,Wind,3798,41.8,13672.8
+2024-01-01,Nagpur Warehouse,Diesel Generator,2550,2091.0,56100.0
+2024-01-01,Bengaluru Office,Grid,25372,18014.1,208050.4
+2024-01-01,Bengaluru Office,Solar,4497,179.9,13940.7
+2024-01-01,Bengaluru Office,Wind,2368,26.0,8524.8
+2024-01-01,Bengaluru Office,Diesel Generator,1632,1338.2,35904.0
+2024-01-01,Ahmedabad Plant,Grid,87675,62249.2,718935.0
+2024-01-01,Ahmedabad Plant,Solar,14640,585.6,45384.0
+2024-01-01,Ahmedabad Plant,Wind,9098,100.1,32752.8
+2024-01-01,Ahmedabad Plant,Diesel Generator,5686,4662.5,125092.0
+2024-02-01,Pune Plant,Grid,89345,63434.9,732629.0
+2024-02-01,Pune Plant,Solar,17331,693.2,53726.1
+2024-02-01,Pune Plant,Wind,7857,86.4,28285.2
+2024-02-01,Pune Plant,Diesel Generator,6369,5222.6,140118.0
+2024-02-01,Chennai Plant,Grid,97098,68939.6,796203.6
+2024-02-01,Chennai Plant,Solar,21249,850.0,65871.9
+2024-02-01,Chennai Plant,Wind,11750,129.2,42300.0
+2024-02-01,Chennai Plant,Diesel Generator,6937,5688.3,152614.0
+2024-02-01,Nagpur Warehouse,Grid,32047,22753.4,262785.4
+2024-02-01,Nagpur Warehouse,Solar,7990,319.6,24769.0
+2024-02-01,Nagpur Warehouse,Wind,3540,38.9,12744.0
+2024-02-01,Nagpur Warehouse,Diesel Generator,2249,1844.2,49478.0
+2024-02-01,Bengaluru Office,Grid,20427,14503.2,167501.4
+2024-02-01,Bengaluru Office,Solar,4193,167.7,12998.3
+2024-02-01,Bengaluru Office,Wind,2494,27.4,8978.4
+2024-02-01,Bengaluru Office,Diesel Generator,1343,1101.3,29546.0
+2024-02-01,Ahmedabad Plant,Grid,84746,60169.7,694917.2
+2024-02-01,Ahmedabad Plant,Solar,15975,639.0,49522.5
+2024-02-01,Ahmedabad Plant,Wind,8788,96.7,31636.8
+2024-02-01,Ahmedabad Plant,Diesel Generator,4549,3730.2,100078.0
+2024-03-01,Pune Plant,Grid,95575,67858.2,783715.0
+2024-03-01,Pune Plant,Solar,19408,776.3,60164.8
+2024-03-01,Pune Plant,Wind,8379,92.2,30164.4
+2024-03-01,Pune Plant,Diesel Generator,6222,5102.0,136884.0
+2024-03-01,Chennai Plant,Grid,110420,78398.2,905444.0
+2024-03-01,Chennai Plant,Solar,27619,1104.8,85618.9
+2024-03-01,Chennai Plant,Wind,11652,128.2,41947.2
+2024-03-01,Chennai Plant,Diesel Generator,6318,5180.8,138996.0
+2024-03-01,Nagpur Warehouse,Grid,37436,26579.6,306975.2
+2024-03-01,Nagpur Warehouse,Solar,8473,338.9,26266.3
+2024-03-01,Nagpur Warehouse,Wind,3657,40.2,13165.2
+2024-03-01,Nagpur Warehouse,Diesel Generator,1859,1524.4,40898.0
+2024-03-01,Bengaluru Office,Grid,23004,16332.8,188632.8
+2024-03-01,Bengaluru Office,Solar,5693,227.7,17648.3
+2024-03-01,Bengaluru Office,Wind,2472,27.2,8899.2
+2024-03-01,Bengaluru Office,Diesel Generator,1473,1207.9,32406.0
+2024-03-01,Ahmedabad Plant,Grid,79706,56591.3,653589.2
+2024-03-01,Ahmedabad Plant,Solar,19041,761.6,59027.1
+2024-03-01,Ahmedabad Plant,Wind,8935,98.3,32166.0
+2024-03-01,Ahmedabad Plant,Diesel Generator,4836,3965.5,106392.0
+2024-04-01,Pune Plant,Grid,101433,72017.4,831750.6
+2024-04-01,Pune Plant,Solar,22296,891.8,69117.6
+2024-04-01,Pune Plant,Wind,8768,96.4,31564.8
+2024-04-01,Pune Plant,Diesel Generator,4954,4062.3,108988.0
+2024-04-01,Chennai Plant,Grid,112765,80063.1,924673.0
+2024-04-01,Chennai Plant,Solar,22114,884.6,68553.4
+2024-04-01,Chennai Plant,Wind,11363,125.0,40906.8
+2024-04-01,Chennai Plant,Diesel Generator,7004,5743.3,154088.0
+2024-04-01,Nagpur Warehouse,Grid,32285,22922.3,264737.0
+2024-04-01,Nagpur Warehouse,Solar,7448,297.9,23088.8
+2024-04-01,Nagpur Warehouse,Wind,4041,44.5,14547.6
+2024-04-01,Nagpur Warehouse,Diesel Generator,2269,1860.6,49918.0
+2024-04-01,Bengaluru Office,Grid,25454,18072.3,208722.8
+2024-04-01,Bengaluru Office,Solar,4656,186.2,14433.6
+2024-04-01,Bengaluru Office,Wind,2271,25.0,8175.6
+2024-04-01,Bengaluru Office,Diesel Generator,1286,1054.5,28292.0
+2024-04-01,Ahmedabad Plant,Grid,93082,66088.2,763272.4
+2024-04-01,Ahmedabad Plant,Solar,18983,759.3,58847.3
+2024-04-01,Ahmedabad Plant,Wind,8292,91.2,29851.2
+2024-04-01,Ahmedabad Plant,Diesel Generator,4377,3589.1,96294.0
+2024-05-01,Pune Plant,Grid,98874,70200.5,810766.8
+2024-05-01,Pune Plant,Solar,21472,858.9,66563.2
+2024-05-01,Pune Plant,Wind,8810,96.9,31716.0
+2024-05-01,Pune Plant,Diesel Generator,5618,4606.8,123596.0
+2024-05-01,Chennai Plant,Grid,111863,79422.7,917276.6
+2024-05-01,Chennai Plant,Solar,29243,1169.7,90653.3
+2024-05-01,Chennai Plant,Wind,11539,126.9,41540.4
+2024-05-01,Chennai Plant,Diesel Generator,6335,5194.7,139370.0
+2024-05-01,Nagpur Warehouse,Grid,39199,27831.3,321431.8
+2024-05-01,Nagpur Warehouse,Solar,10183,407.3,31567.3
+2024-05-01,Nagpur Warehouse,Wind,3838,42.2,13816.8
+2024-05-01,Nagpur Warehouse,Diesel Generator,1733,1421.1,38126.0
+2024-05-01,Bengaluru Office,Grid,20950,14874.5,171790.0
+2024-05-01,Bengaluru Office,Solar,5199,208.0,16116.9
+2024-05-01,Bengaluru Office,Wind,1913,21.0,6886.8
+2024-05-01,Bengaluru Office,Diesel Generator,1093,896.3,24046.0
+2024-05-01,Ahmedabad Plant,Grid,92840,65916.4,761288.0
+2024-05-01,Ahmedabad Plant,Solar,19438,777.5,60257.8
+2024-05-01,Ahmedabad Plant,Wind,7789,85.7,28040.4
+2024-05-01,Ahmedabad Plant,Diesel Generator,4437,3638.3,97614.0
+2024-06-01,Pune Plant,Grid,95248,67626.1,781033.6
+2024-06-01,Pune Plant,Solar,23129,925.2,71699.9
+2024-06-01,Pune Plant,Wind,8782,96.6,31615.2
+2024-06-01,Pune Plant,Diesel Generator,5005,4104.1,110110.0
+2024-06-01,Chennai Plant,Grid,116740,82885.4,957268.0
+2024-06-01,Chennai Plant,Solar,31686,1267.4,98226.6
+2024-06-01,Chennai Plant,Wind,10355,113.9,37278.0
+2024-06-01,Chennai Plant,Diesel Generator,5687,4663.3,125114.0
+2024-06-01,Nagpur Warehouse,Grid,32680,23202.8,267976.0
+2024-06-01,Nagpur Warehouse,Solar,8347,333.9,25875.7
+2024-06-01,Nagpur Warehouse,Wind,3754,41.3,13514.4
+2024-06-01,Nagpur Warehouse,Diesel Generator,1908,1564.6,41976.0
+2024-06-01,Bengaluru Office,Grid,21156,15020.8,173479.2
+2024-06-01,Bengaluru Office,Solar,6314,252.6,19573.4
+2024-06-01,Bengaluru Office,Wind,2140,23.5,7704.0
+2024-06-01,Bengaluru Office,Diesel Generator,1176,964.3,25872.0
+2024-06-01,Ahmedabad Plant,Grid,76734,54481.1,629218.8
+2024-06-01,Ahmedabad Plant,Solar,18034,721.4,55905.4
+2024-06-01,Ahmedabad Plant,Wind,8713,95.8,31366.8
+2024-06-01,Ahmedabad Plant,Diesel Generator,4614,3783.5,101508.0
+2024-07-01,Pune Plant,Grid,83015,58940.6,680723.0
+2024-07-01,Pune Plant,Solar,21208,848.3,65744.8
+2024-07-01,Pune Plant,Wind,9765,107.4,35154.0
+2024-07-01,Pune Plant,Diesel Generator,5157,4228.7,113454.0
+2024-07-01,Chennai Plant,Grid,105610,74983.1,866002.0
+2024-07-01,Chennai Plant,Solar,31162,1246.5,96602.2
+2024-07-01,Chennai Plant,Wind,9560,105.2,34416.0
+2024-07-01,Chennai Plant,Diesel Generator,5876,4818.3,129272.0
+2024-07-01,Nagpur Warehouse,Grid,37474,26606.5,307286.8
+2024-07-01,Nagpur Warehouse,Solar,10861,434.4,33669.1
+2024-07-01,Nagpur Warehouse,Wind,3965,43.6,14274.0
+2024-07-01,Nagpur Warehouse,Diesel Generator,2033,1667.1,44726.0
+2024-07-01,Bengaluru Office,Grid,25543,18135.5,209452.6
+2024-07-01,Bengaluru Office,Solar,5816,232.6,18029.6
+2024-07-01,Bengaluru Office,Wind,2486,27.3,8949.6
+2024-07-01,Bengaluru Office,Diesel Generator,1291,1058.6,28402.0
+2024-07-01,Ahmedabad Plant,Grid,74189,52674.2,608349.8
+2024-07-01,Ahmedabad Plant,Solar,24248,969.9,75168.8
+2024-07-01,Ahmedabad Plant,Wind,6916,76.1,24897.6
+2024-07-01,Ahmedabad Plant,Diesel Generator,3785,3103.7,83270.0
+2024-08-01,Pune Plant,Grid,100130,71092.3,821066.0
+2024-08-01,Pune Plant,Solar,23998,959.9,74393.8
+2024-08-01,Pune Plant,Wind,9117,100.3,32821.2
+2024-08-01,Pune Plant,Diesel Generator,3778,3098.0,83116.0
+2024-08-01,Chennai Plant,Grid,107700,76467.0,883140.0
+2024-08-01,Chennai Plant,Solar,30931,1237.2,95886.1
+2024-08-01,Chennai Plant,Wind,11237,123.6,40453.2
+2024-08-01,Chennai Plant,Diesel Generator,5865,4809.3,129030.0
+2024-08-01,Nagpur Warehouse,Grid,32208,22867.7,264105.6
+2024-08-01,Nagpur Warehouse,Solar,9311,372.4,28864.1
+2024-08-01,Nagpur Warehouse,Wind,4069,44.8,14648.4
+2024-08-01,Nagpur Warehouse,Diesel Generator,1939,1590.0,42658.0
+2024-08-01,Bengaluru Office,Grid,21675,15389.2,177735.0
+2024-08-01,Bengaluru Office,Solar,6106,244.2,18928.6
+2024-08-01,Bengaluru Office,Wind,1950,21.4,7020.0
+2024-08-01,Bengaluru Office,Diesel Generator,982,805.2,21604.0
+2024-08-01,Ahmedabad Plant,Grid,89316,63414.4,732391.2
+2024-08-01,Ahmedabad Plant,Solar,22534,901.4,69855.4
+2024-08-01,Ahmedabad Plant,Wind,7181,79.0,25851.6
+2024-08-01,Ahmedabad Plant,Diesel Generator,4125,3382.5,90750.0
+2024-09-01,Pune Plant,Grid,82447,58537.4,676065.4
+2024-09-01,Pune Plant,Solar,29416,1176.6,91189.6
+2024-09-01,Pune Plant,Wind,8891,97.8,32007.6
+2024-09-01,Pune Plant,Diesel Generator,4069,3336.6,89518.0
+2024-09-01,Chennai Plant,Grid,93699,66526.3,768331.8
+2024-09-01,Chennai Plant,Solar,28308,1132.3,87754.8
+2024-09-01,Chennai Plant,Wind,10671,117.4,38415.6
+2024-09-01,Chennai Plant,Diesel Generator,5667,4646.9,124674.0
+2024-09-01,Nagpur Warehouse,Grid,37510,26632.1,307582.0
+2024-09-01,Nagpur Warehouse,Solar,11235,449.4,34828.5
+2024-09-01,Nagpur Warehouse,Wind,3539,38.9,12740.4
+2024-09-01,Nagpur Warehouse,Diesel Generator,1679,1376.8,36938.0
+2024-09-01,Bengaluru Office,Grid,20493,14550.0,168042.6
+2024-09-01,Bengaluru Office,Solar,6849,274.0,21231.9
+2024-09-01,Bengaluru Office,Wind,2573,28.3,9262.8
+2024-09-01,Bengaluru Office,Diesel Generator,1043,855.3,22946.0
+2024-09-01,Ahmedabad Plant,Grid,69634,49440.1,570998.8
+2024-09-01,Ahmedabad Plant,Solar,27070,1082.8,83917.0
+2024-09-01,Ahmedabad Plant,Wind,7826,86.1,28173.6
+2024-09-01,Ahmedabad Plant,Diesel Generator,3335,2734.7,73370.0
+2024-10-01,Pune Plant,Grid,88952,63155.9,729406.4
+2024-10-01,Pune Plant,Solar,28684,1147.4,88920.4
+2024-10-01,Pune Plant,Wind,9884,108.7,35582.4
+2024-10-01,Pune Plant,Diesel Generator,4589,3763.0,100958.0
+2024-10-01,Chennai Plant,Grid,96646,68618.7,792497.2
+2024-10-01,Chennai Plant,Solar,36885,1475.4,114343.5
+2024-10-01,Chennai Plant,Wind,10837,119.2,39013.2
+2024-10-01,Chennai Plant,Diesel Generator,4248,3483.4,93456.0
+2024-10-01,Nagpur Warehouse,Grid,37831,26860.0,310214.2
+2024-10-01,Nagpur Warehouse,Solar,11055,442.2,34270.5
+2024-10-01,Nagpur Warehouse,Wind,3618,39.8,13024.8
+2024-10-01,Nagpur Warehouse,Diesel Generator,1761,1444.0,38742.0
+2024-10-01,Bengaluru Office,Grid,22178,15746.4,181859.6
+2024-10-01,Bengaluru Office,Solar,7061,282.4,21889.1
+2024-10-01,Bengaluru Office,Wind,2256,24.8,8121.6
+2024-10-01,Bengaluru Office,Diesel Generator,1036,849.5,22792.0
+2024-10-01,Ahmedabad Plant,Grid,75070,53299.7,615574.0
+2024-10-01,Ahmedabad Plant,Solar,22828,913.1,70766.8
+2024-10-01,Ahmedabad Plant,Wind,7731,85.0,27831.6
+2024-10-01,Ahmedabad Plant,Diesel Generator,3616,2965.1,79552.0
+2024-11-01,Pune Plant,Grid,90838,64495.0,744871.6
+2024-11-01,Pune Plant,Solar,27864,1114.6,86378.4
+2024-11-01,Pune Plant,Wind,9504,104.5,34214.4
+2024-11-01,Pune Plant,Diesel Generator,4595,3767.9,101090.0
+2024-11-01,Chennai Plant,Grid,106283,75460.9,871520.6
+2024-11-01,Chennai Plant,Solar,32006,1280.2,99218.6
+2024-11-01,Chennai Plant,Wind,10807,118.9,38905.2
+2024-11-01,Chennai Plant,Diesel Generator,5432,4454.2,119504.0
+2024-11-01,Nagpur Warehouse,Grid,33131,23523.0,271674.2
+2024-11-01,Nagpur Warehouse,Solar,12808,512.3,39704.8
+2024-11-01,Nagpur Warehouse,Wind,4081,44.9,14691.6
+2024-11-01,Nagpur Warehouse,Diesel Generator,1634,1339.9,35948.0
+2024-11-01,Bengaluru Office,Grid,22097,15688.9,181195.4
+2024-11-01,Bengaluru Office,Solar,8063,322.5,24995.3
+2024-11-01,Bengaluru Office,Wind,2086,22.9,7509.6
+2024-11-01,Bengaluru Office,Diesel Generator,1094,897.1,24068.0
+2024-11-01,Ahmedabad Plant,Grid,83197,59069.9,682215.4
+2024-11-01,Ahmedabad Plant,Solar,24792,991.7,76855.2
+2024-11-01,Ahmedabad Plant,Wind,7166,78.8,25797.6
+2024-11-01,Ahmedabad Plant,Diesel Generator,4134,3389.9,90948.0
+2024-12-01,Pune Plant,Grid,99505,70648.6,815941.0
+2024-12-01,Pune Plant,Solar,32586,1303.4,101016.6
+2024-12-01,Pune Plant,Wind,8233,90.6,29638.8
+2024-12-01,Pune Plant,Diesel Generator,3816,3129.1,83952.0
+2024-12-01,Chennai Plant,Grid,96705,68660.6,792981.0
+2024-12-01,Chennai Plant,Solar,37554,1502.2,116417.4
+2024-12-01,Chennai Plant,Wind,9393,103.3,33814.8
+2024-12-01,Chennai Plant,Diesel Generator,4405,3612.1,96910.0
+2024-12-01,Nagpur Warehouse,Grid,35418,25146.8,290427.6
+2024-12-01,Nagpur Warehouse,Solar,12783,511.3,39627.3
+2024-12-01,Nagpur Warehouse,Wind,4104,45.1,14774.4
+2024-12-01,Nagpur Warehouse,Diesel Generator,1445,1184.9,31790.0
+2024-12-01,Bengaluru Office,Grid,22741,16146.1,186476.2
+2024-12-01,Bengaluru Office,Solar,8381,335.2,25981.1
+2024-12-01,Bengaluru Office,Wind,2036,22.4,7329.6
+2024-12-01,Bengaluru Office,Diesel Generator,908,744.6,19976.0
+2024-12-01,Ahmedabad Plant,Grid,89074,63242.5,730406.8
+2024-12-01,Ahmedabad Plant,Solar,25348,1013.9,78578.8
+2024-12-01,Ahmedabad Plant,Wind,8365,92.0,30114.0
+2024-12-01,Ahmedabad Plant,Diesel Generator,3829,3139.8,84238.0
+2025-01-01,Pune Plant,Grid,97987,69570.8,803493.4
+2025-01-01,Pune Plant,Solar,33868,1354.7,104990.8
+2025-01-01,Pune Plant,Wind,9380,103.2,33768.0
+2025-01-01,Pune Plant,Diesel Generator,3693,3028.3,81246.0
+2025-01-01,Chennai Plant,Grid,105413,74843.2,864386.6
+2025-01-01,Chennai Plant,Solar,35213,1408.5,109160.3
+2025-01-01,Chennai Plant,Wind,11020,121.2,39672.0
+2025-01-01,Chennai Plant,Diesel Generator,4730,3878.6,104060.0
+2025-01-01,Nagpur Warehouse,Grid,32411,23011.8,265770.2
+2025-01-01,Nagpur Warehouse,Solar,13537,541.5,41964.7
+2025-01-01,Nagpur Warehouse,Wind,3294,36.2,11858.4
+2025-01-01,Nagpur Warehouse,Diesel Generator,1323,1084.9,29106.0
+2025-01-01,Bengaluru Office,Grid,25243,17922.5,206992.6
+2025-01-01,Bengaluru Office,Solar,7527,301.1,23333.7
+2025-01-01,Bengaluru Office,Wind,2072,22.8,7459.2
+2025-01-01,Bengaluru Office,Diesel Generator,1073,879.9,23606.0
+2025-01-01,Ahmedabad Plant,Grid,70935,50363.8,581667.0
+2025-01-01,Ahmedabad Plant,Solar,25546,1021.8,79192.6
+2025-01-01,Ahmedabad Plant,Wind,9028,99.3,32500.8
+2025-01-01,Ahmedabad Plant,Diesel Generator,3709,3041.4,81598.0
+2025-02-01,Pune Plant,Grid,78194,55517.7,641190.8
+2025-02-01,Pune Plant,Solar,28255,1130.2,87590.5
+2025-02-01,Pune Plant,Wind,9613,105.7,34606.8
+2025-02-01,Pune Plant,Diesel Generator,3865,3169.3,85030.0
+2025-02-01,Chennai Plant,Grid,104151,73947.2,854038.2
+2025-02-01,Chennai Plant,Solar,39373,1574.9,122056.3
+2025-02-01,Chennai Plant,Wind,9256,101.8,33321.6
+2025-02-01,Chennai Plant,Diesel Generator,4070,3337.4,89540.0
+2025-02-01,Nagpur Warehouse,Grid,35353,25100.6,289894.6
+2025-02-01,Nagpur Warehouse,Solar,11079,443.2,34344.9
+2025-02-01,Nagpur Warehouse,Wind,3527,38.8,12697.2
+2025-02-01,Nagpur Warehouse,Diesel Generator,1370,1123.4,30140.0
+2025-02-01,Bengaluru Office,Grid,23164,16446.4,189944.8
+2025-02-01,Bengaluru Office,Solar,6953,278.1,21554.3
+2025-02-01,Bengaluru Office,Wind,2147,23.6,7729.2
+2025-02-01,Bengaluru Office,Diesel Generator,992,813.4,21824.0
+2025-02-01,Ahmedabad Plant,Grid,70427,50003.2,577501.4
+2025-02-01,Ahmedabad Plant,Solar,25360,1014.4,78616.0
+2025-02-01,Ahmedabad Plant,Wind,8733,96.1,31438.8
+2025-02-01,Ahmedabad Plant,Diesel Generator,3387,2777.3,74514.0
+2025-03-01,Pune Plant,Grid,101010,71717.1,828282.0
+2025-03-01,Pune Plant,Solar,33065,1322.6,102501.5
+2025-03-01,Pune Plant,Wind,9175,100.9,33030.0
+2025-03-01,Pune Plant,Diesel Generator,3099,2541.2,68178.0
+2025-03-01,Chennai Plant,Grid,119838,85085.0,982671.6
+2025-03-01,Chennai Plant,Solar,41246,1649.8,127862.6
+2025-03-01,Chennai Plant,Wind,9415,103.6,33894.0
+2025-03-01,Chennai Plant,Diesel Generator,4842,3970.4,106524.0
+2025-03-01,Nagpur Warehouse,Grid,32334,22957.1,265138.8
+2025-03-01,Nagpur Warehouse,Solar,14399,576.0,44636.9
+2025-03-01,Nagpur Warehouse,Wind,3638,40.0,13096.8
+2025-03-01,Nagpur Warehouse,Diesel Generator,1223,1002.9,26906.0
+2025-03-01,Bengaluru Office,Grid,23335,16567.8,191347.0
+2025-03-01,Bengaluru Office,Solar,9134,365.4,28315.4
+2025-03-01,Bengaluru Office,Wind,2200,24.2,7920.0
+2025-03-01,Bengaluru Office,Diesel Generator,930,762.6,20460.0
+2025-03-01,Ahmedabad Plant,Grid,84414,59933.9,692194.8
+2025-03-01,Ahmedabad Plant,Solar,32731,1309.2,101466.1
+2025-03-01,Ahmedabad Plant,Wind,8155,89.7,29358.0
+2025-03-01,Ahmedabad Plant,Diesel Generator,3551,2911.8,78122.0
+2025-04-01,Pune Plant,Grid,98980,70275.8,811636.0
+2025-04-01,Pune Plant,Solar,32233,1289.3,99922.3
+2025-04-01,Pune Plant,Wind,7868,86.5,28324.8
+2025-04-01,Pune Plant,Diesel Generator,3836,3145.5,84392.0
+2025-04-01,Chennai Plant,Grid,105623,74992.3,866108.6
+2025-04-01,Chennai Plant,Solar,43780,1751.2,135718.0
+2025-04-01,Chennai Plant,Wind,9491,104.4,34167.6
+2025-04-01,Chennai Plant,Diesel Generator,4086,3350.5,89892.0
+2025-04-01,Nagpur Warehouse,Grid,35639,25303.7,292239.8
+2025-04-01,Nagpur Warehouse,Solar,12252,490.1,37981.2
+2025-04-01,Nagpur Warehouse,Wind,3718,40.9,13384.8
+2025-04-01,Nagpur Warehouse,Diesel Generator,1233,1011.1,27126.0
+2025-04-01,Bengaluru Office,Grid,19138,13588.0,156931.6
+2025-04-01,Bengaluru Office,Solar,9547,381.9,29595.7
+2025-04-01,Bengaluru Office,Wind,2229,24.5,8024.4
+2025-04-01,Bengaluru Office,Diesel Generator,872,715.0,19184.0
+2025-04-01,Ahmedabad Plant,Grid,69574,49397.5,570506.8
+2025-04-01,Ahmedabad Plant,Solar,33000,1320.0,102300.0
+2025-04-01,Ahmedabad Plant,Wind,8693,95.6,31294.8
+2025-04-01,Ahmedabad Plant,Diesel Generator,2942,2412.4,64724.0
+2025-05-01,Pune Plant,Grid,80647,57259.4,661305.4
+2025-05-01,Pune Plant,Solar,40561,1622.4,125739.1
+2025-05-01,Pune Plant,Wind,7681,84.5,27651.6
+2025-05-01,Pune Plant,Diesel Generator,3456,2833.9,76032.0
+2025-05-01,Chennai Plant,Grid,107340,76211.4,880188.0
+2025-05-01,Chennai Plant,Solar,45025,1801.0,139577.5
+2025-05-01,Chennai Plant,Wind,11090,122.0,39924.0
+2025-05-01,Chennai Plant,Diesel Generator,4243,3479.3,93346.0
+2025-05-01,Nagpur Warehouse,Grid,38178,27106.4,313059.6
+2025-05-01,Nagpur Warehouse,Solar,12743,509.7,39503.3
+2025-05-01,Nagpur Warehouse,Wind,4138,45.5,14896.8
+2025-05-01,Nagpur Warehouse,Diesel Generator,1147,940.5,25234.0
+2025-05-01,Bengaluru Office,Grid,19521,13859.9,160072.2
+2025-05-01,Bengaluru Office,Solar,7718,308.7,23925.8
+2025-05-01,Bengaluru Office,Wind,1956,21.5,7041.6
+2025-05-01,Bengaluru Office,Diesel Generator,905,742.1,19910.0
+2025-05-01,Ahmedabad Plant,Grid,89866,63804.9,736901.2
+2025-05-01,Ahmedabad Plant,Solar,27869,1114.8,86393.9
+2025-05-01,Ahmedabad Plant,Wind,7730,85.0,27828.0
+2025-05-01,Ahmedabad Plant,Diesel Generator,3053,2503.5,67166.0
+2025-06-01,Pune Plant,Grid,88251,62658.2,723658.2
+2025-06-01,Pune Plant,Solar,39340,1573.6,121954.0
+2025-06-01,Pune Plant,Wind,9503,104.5,34210.8
+2025-06-01,Pune Plant,Diesel Generator,3351,2747.8,73722.0
+2025-06-01,Chennai Plant,Grid,112331,79755.0,921114.2
+2025-06-01,Chennai Plant,Solar,43216,1728.6,133969.6
+2025-06-01,Chennai Plant,Wind,10035,110.4,36126.0
+2025-06-01,Chennai Plant,Diesel Generator,4429,3631.8,97438.0
+2025-06-01,Nagpur Warehouse,Grid,37188,26403.5,304941.6
+2025-06-01,Nagpur Warehouse,Solar,14936,597.4,46301.6
+2025-06-01,Nagpur Warehouse,Wind,3970,43.7,14292.0
+2025-06-01,Nagpur Warehouse,Diesel Generator,1439,1180.0,31658.0
+2025-06-01,Bengaluru Office,Grid,25417,18046.1,208419.4
+2025-06-01,Bengaluru Office,Solar,8220,328.8,25482.0
+2025-06-01,Bengaluru Office,Wind,2157,23.7,7765.2
+2025-06-01,Bengaluru Office,Diesel Generator,835,684.7,18370.0
+2025-06-01,Ahmedabad Plant,Grid,69771,49537.4,572122.2
+2025-06-01,Ahmedabad Plant,Solar,27914,1116.6,86533.4
+2025-06-01,Ahmedabad Plant,Wind,8977,98.7,32317.2
+2025-06-01,Ahmedabad Plant,Diesel Generator,3190,2615.8,70180.0
+2025-07-01,Pune Plant,Grid,82775,58770.2,678755.0
+2025-07-01,Pune Plant,Solar,34771,1390.8,107790.1
+2025-07-01,Pune Plant,Wind,9331,102.6,33591.6
+2025-07-01,Pune Plant,Diesel Generator,2811,2305.0,61842.0
+2025-07-01,Chennai Plant,Grid,96496,68512.2,791267.2
+2025-07-01,Chennai Plant,Solar,50580,2023.2,156798.0
+2025-07-01,Chennai Plant,Wind,10756,118.3,38721.6
+2025-07-01,Chennai Plant,Diesel Generator,4085,3349.7,89870.0
+2025-07-01,Nagpur Warehouse,Grid,31193,22147.0,255782.6
+2025-07-01,Nagpur Warehouse,Solar,14200,568.0,44020.0
+2025-07-01,Nagpur Warehouse,Wind,3390,37.3,12204.0
+2025-07-01,Nagpur Warehouse,Diesel Generator,1331,1091.4,29282.0
+2025-07-01,Bengaluru Office,Grid,21978,15604.4,180219.6
+2025-07-01,Bengaluru Office,Solar,8440,337.6,26164.0
+2025-07-01,Bengaluru Office,Wind,2329,25.6,8384.4
+2025-07-01,Bengaluru Office,Diesel Generator,847,694.5,18634.0
+2025-07-01,Ahmedabad Plant,Grid,86866,61674.9,712301.2
+2025-07-01,Ahmedabad Plant,Solar,31310,1252.4,97061.0
+2025-07-01,Ahmedabad Plant,Wind,8572,94.3,30859.2
+2025-07-01,Ahmedabad Plant,Diesel Generator,2634,2159.9,57948.0
+2025-08-01,Pune Plant,Grid,97772,69418.1,801730.4
+2025-08-01,Pune Plant,Solar,33798,1351.9,104773.8
+2025-08-01,Pune Plant,Wind,9061,99.7,32619.6
+2025-08-01,Pune Plant,Diesel Generator,2619,2147.6,57618.0
+2025-08-01,Chennai Plant,Grid,95711,67954.8,784830.2
+2025-08-01,Chennai Plant,Solar,48276,1931.0,149655.6
+2025-08-01,Chennai Plant,Wind,10278,113.1,37000.8
+2025-08-01,Chennai Plant,Diesel Generator,3588,2942.2,78936.0
+2025-08-01,Nagpur Warehouse,Grid,33586,23846.1,275405.2
+2025-08-01,Nagpur Warehouse,Solar,13557,542.3,42026.7
+2025-08-01,Nagpur Warehouse,Wind,4103,45.1,14770.8
+2025-08-01,Nagpur Warehouse,Diesel Generator,1367,1120.9,30074.0
+2025-08-01,Bengaluru Office,Grid,19818,14070.8,162507.6
+2025-08-01,Bengaluru Office,Solar,9984,399.4,30950.4
+2025-08-01,Bengaluru Office,Wind,2427,26.7,8737.2
+2025-08-01,Bengaluru Office,Diesel Generator,738,605.2,16236.0
+2025-08-01,Ahmedabad Plant,Grid,77802,55239.4,637976.4
+2025-08-01,Ahmedabad Plant,Solar,39622,1584.9,122828.2
+2025-08-01,Ahmedabad Plant,Wind,7267,79.9,26161.2
+2025-08-01,Ahmedabad Plant,Diesel Generator,3131,2567.4,68882.0
+2025-09-01,Pune Plant,Grid,89205,63335.5,731481.0
+2025-09-01,Pune Plant,Solar,33825,1353.0,104857.5
+2025-09-01,Pune Plant,Wind,9697,106.7,34909.2
+2025-09-01,Pune Plant,Diesel Generator,3099,2541.2,68178.0
+2025-09-01,Chennai Plant,Grid,99648,70750.1,817113.6
+2025-09-01,Chennai Plant,Solar,46990,1879.6,145669.0
+2025-09-01,Chennai Plant,Wind,12087,133.0,43513.2
+2025-09-01,Chennai Plant,Diesel Generator,3941,3231.6,86702.0
+2025-09-01,Nagpur Warehouse,Grid,32216,22873.4,264171.2
+2025-09-01,Nagpur Warehouse,Solar,18124,725.0,56184.4
+2025-09-01,Nagpur Warehouse,Wind,3298,36.3,11872.8
+2025-09-01,Nagpur Warehouse,Diesel Generator,1120,918.4,24640.0
+2025-09-01,Bengaluru Office,Grid,20820,14782.2,170724.0
+2025-09-01,Bengaluru Office,Solar,8845,353.8,27419.5
+2025-09-01,Bengaluru Office,Wind,2411,26.5,8679.6
+2025-09-01,Bengaluru Office,Diesel Generator,766,628.1,16852.0
+2025-09-01,Ahmedabad Plant,Grid,88234,62646.1,723518.8
+2025-09-01,Ahmedabad Plant,Solar,35453,1418.1,109904.3
+2025-09-01,Ahmedabad Plant,Wind,8285,91.1,29826.0
+2025-09-01,Ahmedabad Plant,Diesel Generator,2645,2168.9,58190.0
+2025-10-01,Pune Plant,Grid,101965,72395.1,836113.0
+2025-10-01,Pune Plant,Solar,36601,1464.0,113463.1
+2025-10-01,Pune Plant,Wind,7668,84.3,27604.8
+2025-10-01,Pune Plant,Diesel Generator,2661,2182.0,58542.0
+2025-10-01,Chennai Plant,Grid,99015,70300.6,811923.0
+2025-10-01,Chennai Plant,Solar,41772,1670.9,129493.2
+2025-10-01,Chennai Plant,Wind,10542,116.0,37951.2
+2025-10-01,Chennai Plant,Diesel Generator,3258,2671.6,71676.0
+2025-10-01,Nagpur Warehouse,Grid,38060,27022.6,312092.0
+2025-10-01,Nagpur Warehouse,Solar,17596,703.8,54547.6
+2025-10-01,Nagpur Warehouse,Wind,3838,42.2,13816.8
+2025-10-01,Nagpur Warehouse,Diesel Generator,1011,829.0,22242.0
+2025-10-01,Bengaluru Office,Grid,25154,17859.3,206262.8
+2025-10-01,Bengaluru Office,Solar,11030,441.2,34193.0
+2025-10-01,Bengaluru Office,Wind,2028,22.3,7300.8
+2025-10-01,Bengaluru Office,Diesel Generator,818,670.8,17996.0
+2025-10-01,Ahmedabad Plant,Grid,69863,49602.7,572876.6
+2025-10-01,Ahmedabad Plant,Solar,40543,1621.7,125683.3
+2025-10-01,Ahmedabad Plant,Wind,8200,90.2,29520.0
+2025-10-01,Ahmedabad Plant,Diesel Generator,2649,2172.2,58278.0
+2025-11-01,Pune Plant,Grid,81554,57903.3,668742.8
+2025-11-01,Pune Plant,Solar,44700,1788.0,138570.0
+2025-11-01,Pune Plant,Wind,9058,99.6,32608.8
+2025-11-01,Pune Plant,Diesel Generator,3070,2517.4,67540.0
+2025-11-01,Chennai Plant,Grid,110480,78440.8,905936.0
+2025-11-01,Chennai Plant,Solar,55634,2225.4,172465.4
+2025-11-01,Chennai Plant,Wind,11607,127.7,41785.2
+2025-11-01,Chennai Plant,Diesel Generator,2938,2409.2,64636.0
+2025-11-01,Nagpur Warehouse,Grid,35220,25006.2,288804.0
+2025-11-01,Nagpur Warehouse,Solar,17970,718.8,55707.0
+2025-11-01,Nagpur Warehouse,Wind,3740,41.1,13464.0
+2025-11-01,Nagpur Warehouse,Diesel Generator,1095,897.9,24090.0
+2025-11-01,Bengaluru Office,Grid,22545,16006.9,184869.0
+2025-11-01,Bengaluru Office,Solar,10324,413.0,32004.4
+2025-11-01,Bengaluru Office,Wind,2059,22.6,7412.4
+2025-11-01,Bengaluru Office,Diesel Generator,611,501.0,13442.0
+2025-11-01,Ahmedabad Plant,Grid,70320,49927.2,576624.0
+2025-11-01,Ahmedabad Plant,Solar,35916,1436.6,111339.6
+2025-11-01,Ahmedabad Plant,Wind,7208,79.3,25948.8
+2025-11-01,Ahmedabad Plant,Diesel Generator,2708,2220.6,59576.0
+2025-12-01,Pune Plant,Grid,87788,62329.5,719861.6
+2025-12-01,Pune Plant,Solar,46127,1845.1,142993.7
+2025-12-01,Pune Plant,Wind,10180,112.0,36648.0
+2025-12-01,Pune Plant,Diesel Generator,2928,2401.0,64416.0
+2025-12-01,Chennai Plant,Grid,123292,87537.3,1010994.4
+2025-12-01,Chennai Plant,Solar,59021,2360.8,182965.1
+2025-12-01,Chennai Plant,Wind,10389,114.3,37400.4
+2025-12-01,Chennai Plant,Diesel Generator,2867,2350.9,63074.0
+2025-12-01,Nagpur Warehouse,Grid,31511,22372.8,258390.2
+2025-12-01,Nagpur Warehouse,Solar,15583,623.3,48307.3
+2025-12-01,Nagpur Warehouse,Wind,3207,35.3,11545.2
+2025-12-01,Nagpur Warehouse,Diesel Generator,1264,1036.5,27808.0
+2025-12-01,Bengaluru Office,Grid,24169,17160.0,198185.8
+2025-12-01,Bengaluru Office,Solar,12279,491.2,38064.9
+2025-12-01,Bengaluru Office,Wind,2058,22.6,7408.8
+2025-12-01,Bengaluru Office,Diesel Generator,656,537.9,14432.0
+2025-12-01,Ahmedabad Plant,Grid,71170,50530.7,583594.0
+2025-12-01,Ahmedabad Plant,Solar,43235,1729.4,134028.5
+2025-12-01,Ahmedabad Plant,Wind,7579,83.4,27284.4
+2025-12-01,Ahmedabad Plant,Diesel Generator,2846,2333.7,62612.0

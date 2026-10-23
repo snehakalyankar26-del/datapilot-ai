@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DataPilot AI — Secure Autonomous Data Analyst (Google Cloud & Gemini)</title>
+  <meta name="description" content="Ask questions about your data in plain English. An enterprise agent powered by Google Gemini and BigQuery plans, queries, charts and explains.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/styles.css">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%234f46e5'/%3E%3Cpath d='M9 22l5-8 4 5 5-9' stroke='white' stroke-width='3' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">
+    <div class="logo" aria-hidden="true">
+      <svg viewBox="0 0 32 32"><path d="M8 22l5-8 4 5 6-10" /></svg>
+    </div>
+    <div>
+      <h1>DataPilot <span>AI</span></h1>
+      <p class="tagline">Secure Autonomous Data Analyst · Google Cloud & Gemini</p>
+    </div>
+  </div>
+  <div class="status">
+    <button id="google-stack-btn" class="pill pill-accent" title="View & Configure Google Cloud Stack (Gemini, BigQuery, Vertex AI)">☁️ Google Stack</button>
+    <button id="firebase-btn" class="pill pill-good" title="Firebase Session & Saved Insights">🔥 Firebase Active</button>
+    <span id="engine-pill" class="pill">Connecting…</span>
+    <span id="shield-pill" class="pill pill-good" title="Run the security self-test in the Security tab">🛡️ 7 Guards</span>
+    <button id="theme-btn" class="icon-btn" aria-label="Toggle theme" title="Toggle Light/Dark Theme">◐</button>
+  </div>
+</header>
+
+<div class="layout">
+  <aside class="sidebar" aria-label="Datasets">
+    <div class="side-head">
+      <h2>Datasets</h2>
+      <span class="muted small" id="ds-count"></span>
+    </div>
+    <ul id="dataset-list" class="ds-list"></ul>
+
+    <label id="dropzone" class="dropzone" tabindex="0">
+      <input id="file-input" type="file" accept=".csv,.tsv" hidden>
+      <div class="dz-icon">⬆</div>
+      <strong>Upload a CSV</strong>
+      <span class="muted small">Drag & drop or click · max <span id="max-mb">10</span> MB</span>
+    </label>
+    <p class="privacy-note small muted">🔒 Dual-Engine Sandbox (SQLite + BigQuery). Automatic PII masking on emails, phone, card numbers & national IDs.</p>
+  </aside>
+
+  <main class="main">
+    <nav class="tabs" role="tablist">
+      <button class="tab active" data-tab="ask" role="tab">💬 Ask Agent</button>
+      <button class="tab" data-tab="profile" role="tab">📋 Data Profile</button>
+      <button class="tab" data-tab="security" role="tab">🛡️ Security (Red-Team)</button>
+      <button class="tab" data-tab="perf" role="tab">⚡ Performance & BigQuery</button>
+      <button class="tab" data-tab="deck" role="tab">📽️ Pitch Deck</button>
+      <button class="tab" data-tab="about" role="tab">ℹ️ Architecture</button>
+    </nav>
+
+    <!-- ASK -->
+    <section id="tab-ask" class="panel active">
+      <div id="ds-banner" class="ds-banner"></div>
+      <div id="conversation" class="conversation" aria-live="polite">
+        <div class="empty" id="empty-state">
+          <div class="empty-icon">✨</div>
+          <h3>Autonomous Agentic Data Analyst</h3>
+          <p class="muted">Select a dataset from the left, then ask any question in plain English or pick a suggestion chip. The agent reasons, constructs a safe query, executes it inside a locked sandbox, repairs errors automatically, generates validated charts, and verifies that 100% of the numbers in the answer are grounded in reality.</p>
+        </div>
+      </div>
+      <div id="suggestions" class="chips"></div>
+      <form id="ask-form" class="ask-bar" autocomplete="off">
+        <input id="question" type="text" placeholder="e.g. Which city has the highest average delivery minutes?" maxlength="500" aria-label="Your question">
+        <button id="ask-btn" type="submit" class="btn-primary">Ask Agent <span aria-hidden="true">→</span></button>
+      </form>
+    </section>
+
+    <!-- PROFILE -->
+    <section id="tab-profile" class="panel">
+      <div id="profile-content"></div>
+    </section>
+
+    <!-- SECURITY -->
+    <section id="tab-security" class="panel">
+      <div class="card">
+        <div class="card-head">
+          <div>
+            <h3>Live Red-Team Self-Test Suite (15 Attacks)</h3>
+            <p class="muted">Fires 15 live adversarial attacks (SQL injection, BigQuery EXECUTE IMMEDIATE bypass, schema extraction, table drop, infinite CTE denial-of-service, prompt injection, and system prompt leaks) against the security layers and audits which layer stopped each attack.</p>
+          </div>
+          <button id="selftest-btn" class="btn-primary">Run Live Attacks</button>
+        </div>
+        <div id="selftest-out"></div>
+      </div>
+      <div class="card">
+        <h3>7-Layer Enterprise Defense-in-Depth</h3>
+        <div class="layers">
+          <div class="layer"><b>1 · Input Guard</b><span>Control character stripping, length enforcement, adversarial heuristic prompt-injection detection.</span></div>
+          <div class="layer"><b>2 · Prompt Isolation</b><span>User text and schema are enclosed as immutable DATA; system instruction strictly forbids following user directives in data.</span></div>
+          <div class="layer"><b>3 · Static SQL AST Guard</b><span>Single read-only SELECT only, forbidden keyword denylist, table name allowlist matching active schema.</span></div>
+          <div class="layer"><b>4 · SQLite Engine Authorizer</b><span>OS/engine level allowlist on C/DB callbacks — cannot be circumvented by any SQL text trick.</span></div>
+          <div class="layer"><b>5 · BigQuery Dry-Run Guard</b><span>Dry-run query compilation, byte quota capping (100MB), forbidden DDL/DML, estimated cost limiter.</span></div>
+          <div class="layer"><b>6 · Output Guard & Grounding</b><span>PII masking (phone/email/Aadhaar/cards), formula neutralisation on CSV exports, and 100% grounding verification.</span></div>
+          <div class="layer"><b>7 · Edge & Cloud Infrastructure</b><span>Constant-time API key auth, sliding-window rate limit, strict CSP headers, non-root Cloud Run deployment.</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PERFORMANCE & BIGQUERY -->
+    <section id="tab-perf" class="panel">
+      <div class="card">
+        <div class="card-head">
+          <div>
+            <h3>Official Golden Benchmark Suite</h3>
+            <p class="muted">Run the 20-case golden evaluation suite across Food Delivery, Healthcare Admissions, and Energy Emissions. Measures real accuracy against hand-verified gold SQL and reports p50/p95 latency and grounding scores.</p>
+          </div>
+          <button id="run-benchmark-btn" class="btn-primary">🚀 Run Live Benchmark</button>
+        </div>
+        <div id="benchmark-results" style="margin-top:14px;"></div>
+      </div>
+
+      <div class="card">
+        <h3>Live Application Telemetry</h3>
+        <div id="metrics-grid" class="metrics"></div>
+        <p class="muted small">Auto-refreshes every 5 s while this tab is open.</p>
+      </div>
+
+      <div class="card">
+        <div class="card-head">
+          <div>
+            <h3>Google Cloud BigQuery Audit & Cost Ledger</h3>
+            <p class="muted">Enterprise BigQuery query execution history with byte accounting, dry-run safety estimation, and on-demand cost metrics ($6.25/TB rate).</p>
+          </div>
+          <button id="refresh-bq-btn" class="btn-ghost">Refresh Ledger</button>
+        </div>
+        <div id="bq-history-table" class="table-wrap" style="margin-top:12px;"></div>
+      </div>
+    </section>
+
+    <!-- PITCH DECK -->
+    <section id="tab-deck" class="panel">
+      <div class="deck-container">
+        <div class="deck-controls">
+          <button id="deck-prev" class="btn-ghost" title="Previous Slide (or left arrow)">← Previous</button>
+          <div class="deck-indicator" id="deck-indicator">Slide 1 of 8</div>
+          <button id="deck-next" class="btn-primary" title="Next Slide (or right arrow)">Next →</button>
+        </div>
+        <div class="deck-nav-pills" id="deck-pills"></div>
+        <div class="deck-slide-view" id="deck-slide-view"></div>
+      </div>
+    </section>
+
+    <!-- ABOUT / ARCHITECTURE -->
+    <section id="tab-about" class="panel">
+      <div class="card">
+        <h3>The Autonomous Agentic Loop</h3>
+        <ol class="flow">
+          <li><b>Guard</b> — Sanitise question, block prompt-injection and control characters.</li>
+          <li><b>Cache</b> — High-speed LRU+TTL answer cache returns repeated questions in <b>0.04 ms</b>.</li>
+          <li><b>Plan</b> — Google Gemini reads a compact, masked schema and reasons over the required query strategy.</li>
+          <li><b>Generate SQL</b> — Generates one read-only query returned as strict, validated JSON.</li>
+          <li><b>Validate & Execute</b> — 7 security layers: static AST guard, low-level engine authorizer, BigQuery dry-run guard.</li>
+          <li><b>Self-Repair</b> — On syntax or execution error, the error feedback is piped back to Gemini for self-repair (up to 2 retries).</li>
+          <li><b>Visualise</b> — Dynamic chart specification (bar/line/pie/scatter) validated against actual result columns.</li>
+          <li><b>Explain</b> — Plain-English executive narrative + bullet insights.</li>
+          <li><b>Grounding Verification</b> — Every numeric token in the narrative is cross-checked against result rows (100% grounding score guarantee).</li>
+        </ol>
+        <div class="google-tech-callout">
+          <h4>Google Technologies Powering DataPilot AI</h4>
+          <div class="tech-grid">
+            <div class="tech-item"><b>Google Gemini 2.5</b><span>Reasoning engine, JSON mode, system instructions, self-repair loop</span></div>
+            <div class="tech-item"><b>Google Vertex AI</b><span>Enterprise-grade model serving with Application Default Credentials</span></div>
+            <div class="tech-item"><b>Google Cloud BigQuery</b><span>Large-scale analytics, byte estimation, query audit ledger, cost guard</span></div>
+            <div class="tech-item"><b>Google Firebase</b><span>Identity session management, saved queries, insight bookmarks</span></div>
+            <div class="tech-item"><b>Google Cloud Run</b><span>Serverless container execution, autoscaling, least-privilege service account</span></div>
+            <div class="tech-item"><b>Google Secret Manager</b><span>Secure zero-exposure API key & secret lifecycle</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</div>
+
+<div id="toast" class="toast" role="status"></div>
+
+<!-- SETTINGS MODAL -->
+<dialog id="settings-dialog">
+  <form id="settings-form">
+    <div style="display:flex; justify-content:space-between; align-items:center;">
+      <h3>Google Cloud Stack & Keys</h3>
+      <button type="button" class="btn-ghost" id="close-settings-btn" style="padding:4px 8px;">✕</button>
+    </div>
+    <p class="muted small">Configure your Google Gemini API key and Cloud Project. Changes take effect instantly without restarting the server!</p>
+    
+    <label>
+      <span class="small" style="font-weight:600;">Google Gemini API Key:</span>
+      <input id="cfg-gemini-key" type="password" placeholder="AIzaSy... (leave empty to use offline planner)">
+    </label>
+    <span class="small muted">Get a free Gemini API key from <a href="https://aistudio.google.com/apikey" target="_blank" rel="noreferrer" style="color:var(--accent);">Google AI Studio</a>.</span>
+
+    <label style="margin-top:6px;">
+      <span class="small" style="font-weight:600;">Gemini Model:</span>
+      <select id="cfg-model" style="padding:10px; border-radius:9px; border:1px solid var(--border); background:var(--surface-2); color:var(--text); width:100%;">
+        <option value="gemini-2.5-flash">Gemini 2.5 Flash (Recommended - Fast & Accurate)</option>
+        <option value="gemini-1.5-flash">Gemini 1.5 Flash</option>
+        <option value="gemini-1.5-pro">Gemini 1.5 Pro</option>
+      </select>
+    </label>
+
+    <label style="margin-top:6px;">
+      <span class="small" style="font-weight:600;">Google Cloud Project ID (BigQuery & Vertex AI):</span>
+      <input id="cfg-gcp-project" type="text" placeholder="e.g. datapilot-enterprise-2026">
+    </label>
+
+    <div style="display:flex; gap:10px; justify-content:flex-end; margin-top:14px;">
+      <button type="submit" class="btn-primary">Save & Apply Changes</button>
+    </div>
+  </form>
+</dialog>
+
+<!-- AUTH / ACCESS KEY MODAL -->
+<dialog id="key-dialog">
+  <form method="dialog" id="key-form">
+    <h3>Access Key Required</h3>
+    <p class="muted">This deployment is protected. Enter the access key you were provided.</p>
+    <input id="key-input" type="password" placeholder="Access key" required>
+    <button class="btn-primary" type="submit">Continue</button>
+  </form>
+</dialog>
+
+<script src="/static/vendor/chart.umd.min.js"></script>
+<script src="/static/app.js"></script>
+</body>
+</html>
